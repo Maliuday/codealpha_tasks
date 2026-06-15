@@ -2,7 +2,7 @@
 
 ## Objective
 
-Set up Jenkins Remoting to connect a remote Jenkins node with the Jenkins controller.
+Set up Jenkins Remoting to connect a remote Jenkins Agent with the Jenkins Controller.
 
 ## Tools Used
 
@@ -14,36 +14,36 @@ Set up Jenkins Remoting to connect a remote Jenkins node with the Jenkins contro
 
 ## Steps Performed
 
-1. Launched EC2 Instance.
-2. Installed Java 21.
-3. Installed Jenkins.
-4. Started Jenkins Service.
-5. Accessed Jenkins Dashboard.
-6. Created Jenkins Agent (agent1).
+1. Launched an AWS EC2 instance.
+2. Connected to EC2 using SSH.
+3. Installed Java 21.
+4. Verified Java installation.
+5. Created a Jenkins Agent node.
+6. Configured agent settings.
 7. Downloaded agent.jar.
-8. Connected Agent using WebSocket.
-9. Verified Agent Connection.
+8. Connected the agent using WebSocket.
+9. Verified agent connection from Jenkins Dashboard.
 
 ## Result
 
-Successfully connected remote Jenkins Agent with Jenkins Controller.
+Successfully connected a remote Jenkins Agent with Jenkins Controller.
 
 ## EC2 Login
 
-![EC2 Login](Task-2-Jenkins-Remoting/screenshots/ec2-login.png)
+![EC2 Login](screenshots/ec2-login.png)
 
 ## Java Installation
 
-![Java](Task-2-Jenkins-Remoting/screenshots/java-version.png)
+![Java Installation](screenshots/java-version.png)
 
 ## Jenkins Running
 
-![Jenkins Running](Task-2-Jenkins-Remoting/screenshots/jenkins-service-running.png)
+![Jenkins Running](screenshots/jenkins-service-running.png)
 
 ## Agent Connected Terminal
 
-![Agent Terminal](Task-2-Jenkins-Remoting/screenshots/agent-connected-terminal.png)
+![Agent Connected Terminal](screenshots/agent-connected-terminal.png)
 
 ## Agent Connected Dashboard
 
-![Agent Dashboard](Task-2-Jenkins-Remoting/screenshots/agent-status-connected.png)
+![Agent Connected Dashboard](screenshots/agent-status-connected.png)
