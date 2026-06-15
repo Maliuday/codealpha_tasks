@@ -6,11 +6,11 @@ Set up Jenkins Remoting to connect a remote Jenkins node with the Jenkins contro
 
 ## Tools Used
 
-- AWS EC2
-- Amazon Linux 2023
-- Java 21
-- Jenkins
-- Jenkins Agent
+* AWS EC2
+* Amazon Linux 2023
+* Java 21
+* Jenkins
+* Jenkins Agent
 
 ## Steps Performed
 
@@ -28,22 +28,22 @@ Set up Jenkins Remoting to connect a remote Jenkins node with the Jenkins contro
 
 Successfully connected remote Jenkins Agent with Jenkins Controller.
 
-### EC2 Login
+## EC2 Login
 
-![EC2 Login](screenshots/ec2-login.png)
+![EC2 Login](Task-2-Jenkins-Remoting/screenshots/ec2-login.png)
 
-### Java Installation
+## Java Installation
 
-![Java](screenshots/java-version.png)
+![Java](Task-2-Jenkins-Remoting/screenshots/java-version.png)
 
-### Jenkins Running
+## Jenkins Running
 
-![Jenkins Running](screenshots/jenkins-service-running.png)
+![Jenkins Running](Task-2-Jenkins-Remoting/screenshots/jenkins-service-running.png)
 
-### Agent Connected Terminal
+## Agent Connected Terminal
 
-![Agent Terminal](screenshots/agent-connected-terminal.png)
+![Agent Terminal](Task-2-Jenkins-Remoting/screenshots/agent-connected-terminal.png)
 
-### Agent Connected Dashboard
+## Agent Connected Dashboard
 
-![Agent Dashboard](screenshots/agent-status-connected.png)
+![Agent Dashboard](Task-2-Jenkins-Remoting/screenshots/agent-status-connected.png)
